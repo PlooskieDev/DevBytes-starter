@@ -34,8 +34,6 @@ abstract class VideosDatabase: RoomDatabase() {
     abstract val videoDao: VideoDao
 }
 
-
-
 private lateinit var INSTANCE: VideosDatabase
 
 fun getDatabase(context: Context): VideosDatabase {
